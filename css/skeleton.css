@@ -152,7 +152,7 @@ body {
   /* font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; */
   color: #222; }
 footer {
-  font-size: 60%;
+  font-size: 40%;
   font-family: "Georgia", serif;
   color: #abc7bb;
   text-align: left;
@@ -178,7 +178,10 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 @media (max-width: 549px) {
-  h1 { font-size: 3.6rem; }
+  h1 {
+    font-size: 3.6rem;
+    text-align: center;
+    margin: 0 auto; }
   h2 { font-size: 3.0rem; }
   h3 { font-size: 2.4rem; }
   h4 { font-size: 1.8rem; }
